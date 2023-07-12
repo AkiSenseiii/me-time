@@ -1,4 +1,3 @@
-
 # Lofi Study Session
 
 I created a website that incorporates the Pomodoro app, the Todo app, a music player, and the YouTube Search API. It is designed for people who want to study while also relaxing. Each application has its own set of applications. See the markdown below for more information.
@@ -6,6 +5,7 @@ I created a website that incorporates the Pomodoro app, the Todo app, a music pl
 Here's the link of the live site: https://studentstudysession.vercel.app/
 
 ## The following languages I used:
+
 <div align-items: left>
 <img src="https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png" width="50">
 <img src="https://user-images.githubusercontent.com/25181517/183898674-75a4a1b1-f960-4ea9-abcb-637170a00a75.png" width="50">
@@ -15,7 +15,6 @@ Here's the link of the live site: https://studentstudysession.vercel.app/
   <img src="https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png" width="45">
 </div >
 <br>
-<img src="src\bg-image\Student pomodoro img.JPG" alt= “” >
 
 ## List of applications:
 
@@ -39,6 +38,7 @@ When you have completed the task, just simply click the checkbox button, it will
 ### Function description of Todo App:
 
 This to-do list is implemented using JavaScript, and utilizes the DOM to manipulate the HTML elements on the page.
+
 <ul style="text-align: left;">
 <li style="margin-left: -3rem;"> The first step is to select the relevant elements on the page using their ID or class. The next step is to set up an event listener for the "load" event of the window, which will retrieve any tasks that were previously saved in local storage.
 
@@ -58,6 +58,7 @@ Pomodoro is a study technique that involves setting a timer for your sessions an
 It's worth noting that the Pomodoro technique may not work for everyone. Some people may find it too rigid or restrictive, while others may need longer or shorter work and break intervals. Ultimately, the key to success with any study technique is finding what works best for you and your learning style.
 
 ### Function description of Pomodoro App:
+
 <ul style="text-align: left;">
 <li style="margin-left: -3rem;">The Pomodoro App is designed to help users manage their time more efficiently. To create the app, I first defined the values for the seconds and minutes that make up the break and session lengths. Next, I set up the relevant elements on the page using their IDs or classes. To do this, I used a for loop to call all of the buttons in the arrays.
 
@@ -66,10 +67,9 @@ It's worth noting that the Pomodoro technique may not work for everyone. Some pe
 <li style="margin-left: -3rem;">In addition to these basic features, I also included a setTimerValue() function that automatically switches the app from session mode to break mode when the session is complete. Finally, I created a startStopTimer() function that tracks the active status of the timer and counts down the seconds using the setInterval method when the timer is active.
 </ul>
 
-
 # Music Player
 
-I have created a music player that includes pomodoro and to-do apps to enhance the user's studying or work experience. The music player is designed to provide a relaxing atmosphere, enabling the user to focus better while studying or working on their tasks. Additionally, the player has a variety of music options that can help to set the user's mood according to their preference, making the experience more personalized. By using this music player, the user can expect to feel calmer, more motivated, and focused, which can lead to increased productivity and better overall results. 
+I have created a music player that includes pomodoro and to-do apps to enhance the user's studying or work experience. The music player is designed to provide a relaxing atmosphere, enabling the user to focus better while studying or working on their tasks. Additionally, the player has a variety of music options that can help to set the user's mood according to their preference, making the experience more personalized. By using this music player, the user can expect to feel calmer, more motivated, and focused, which can lead to increased productivity and better overall results.
 
 ### Function description of Music Player:
 
@@ -86,6 +86,7 @@ I have created a music player that includes pomodoro and to-do apps to enhance t
 I developed a YouTube search API to allow users to customize music while browsing the website, eliminating the need for them to go to YouTube, and if they aren't satisfied with the music player, they can simply dive into the YouTube side bar. It will also make browsing YouTube easier for the user, as they will simply click the sidebar button to search for what they are looking for.
 
 ### Function description of Youtube API:
+
 <ul style="text-align: left;">
 <li style="margin-left: -3rem;">I decided to make the YouTube API available on the side of the page if the user was using the mobile version, so they could easily access the YouTube search by clicking the button in the sidebar. This has been achieved by implementing a sidebar button that toggles the YouTube search container when clicked. The button is styled using the aria-expanded and data-visible attributes of the DOM, and the CSS translateX property to shift the container from 100% to 0. This allows the container to slide in and out of view smoothly. The button is also set to listen for click events, so that it can toggle the container accordingly.
 
