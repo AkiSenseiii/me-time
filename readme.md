@@ -1,4 +1,4 @@
-# Lofi Study Session
+# Me-Time
 
 I created a website that incorporates the Pomodoro app, the Todo app, a music player, and the YouTube Search API. It is designed for people who want to study while also relaxing. Each application has its own set of applications. See the markdown below for more information.
 
